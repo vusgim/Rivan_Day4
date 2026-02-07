@@ -339,7 +339,7 @@ conf t
   switchport access vlan 1
   mls qos trust device cisco-phone
   exit
- !
+ ip rounting
  router ospf 1
   router-id 10.11.11.4
   network 10.11.0.0 0.0.255.255 area 0
